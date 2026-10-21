@@ -1,0 +1,33 @@
+name: Code Health Check
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/node- Warmup
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install HTML & CSS Linters
+        run: |
+          npm install -g htmlhint stylelint stylelint-config-standard
+
+      - name: Run HTML Validation
+        run: |
+          npx htmlhint "index.html"
+
+      - name: Verify JavaScript Syntax
+        run: |
+          node -c script.js
