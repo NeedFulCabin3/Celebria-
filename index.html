@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>🎉Happy Birthday!🥳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" loop src="Assets/BGM.mp3"></audio>
+    <div id="sparkles-bg"></div>
+    
+    <div class="card">
+        <div id="p1" class="page active">
+            <h1>tera Birthday aaj haii naa?🤔</h1>
+            <h1>Sorry just kidding 😁 merko pta haii aaj he haii yes button daba!</h1>
+            <div class="btn-container">
+                <button class="btn-yes" onclick="nextPage(2)">Yes</button>
+                <button class="btn-no" onclick="showCaught()">No</button>
+            </div>
+        </div>
+        
+        <div id="p1-caught" class="page">
+            <h1>🙄</h1>
+            <p>Q no button dabaya merko pta haii aaj he haii tera Birthday. bhula nahi huu maii both acchse se yaad haii merko bula nahi huu mai😁. back jaa and firse yes daba.</p>
+            <div class="btn-container">
+                <button class="btn-yes" onclick="resetP1()">Go Back</button>
+            </div>
+        </div>
+        
+        <div id="p2" class="page">
+            <h1>Ok Great! Now, let me first ask....</h1>
+            <p>party kab dari haii?🍰</p>
+            <div class="btn-container"> 
+                <button class="btn-yes" onclick="nextPage(3)">Soon</button>
+                <button id="never-btn" class="btn-no" onmouseover="moveNever()" ontouchstart="moveNever(event)" onclick="moveNever(event)">Never</button>
+            </div>
+        </div>
+        
+        <div id="p3" class="page">
+            <h1>🎉Happy Birthday!🥳</h1>
+            <p>On this sacred milestone of your life, may the Almighty embrace you and your loved ones with His divine grace and protection. May He grant you the strength to achieve your dreams and the peace to enjoy every moment of the journey. Wishing you a day filled with serene joy, cherished memories, and a future overflowing with blessings.💖 may the Almighty embrace you and your loved ones with His divine grace and protection. May He grant you the strength to achieve your dreams and the peace to enjoy every moment of the journey. Wishing you a day filled with serene joy, cherished memories, and a future overflowing with blessings.💖 may the Almighty embrace you and your loved ones with His divine grace and protection. May He grant you the strength to achieve your dreams and the peace to enjoy every moment of the journey. Wishing you a day filled with serene joy, cherished memories, and a future overflowing with blessings.💖</p>
+            <h2>✨</h2>
+        </div>
+    </div>
+    
+    <div id="signature" class="sig-card">
+        <p style="color: #ff4d4d; font-weight: bold;">From: Ishaan Humaney</p>
+        <p style="color: #4d68ffc6;">📧 <a href="https://github.com/NeedFulCabin3/Birthday-Test/blob/main/Disclaimer" target="_blank"><u>Disclaimer</u></a></p>
+        <p >Once Again, Happy Birthday!</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
