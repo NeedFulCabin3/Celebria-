@@ -1,6 +1,6 @@
 # Comprehensive Legal Disclaimer, IP Protection & Privacy Terms
 
-**Effective Date:** October 2026  
+**Effective Date:** October 22, 2026  
 **Proprietary Owner:** Ishaan Humaney  
 
 ---
