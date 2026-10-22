@@ -13,7 +13,7 @@ This Birthday Greeting Web Application (the "Application") is an intimate, highl
 ---
 
 ### 2. Intellectual Property (IP) & Proprietary Safeguards
-All components of this Application—including HTML5 markup (`index.html`), styling logic (`style.css`), dynamic scripts (`script.js`), interactive button behaviors (such as the runaway "Never" button algorithm), mobile-first design architecture, visual backgrounds (`Bg.jpg`), audio assets (`Aarzu.mp3`), and personal written expressions—constitute the exclusive intellectual property of **Ishaan Humaney**.
+All components of this Application—including HTML5 markup (`index.html`), styling logic (`style.css`), dynamic scripts (`script.js`), interactive button behaviors (such as the runaway "Never" button algorithm), mobile-first design architecture, visual backgrounds (`Bg.jpg`), audio assets (`BGM.mp3`), and personal written expressions—constitute the exclusive intellectual property of **Ishaan Humaney**.
 
 * **Copyright Protection:** Protected under Indian Copyright Act, 1957, international copyright conventions (Berne Convention), and universal intellectual property laws.
 * **No License Granted:** No license or right of usage, copying, or modification is extended to any public viewer or web scraper.
